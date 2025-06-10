@@ -1,0 +1,136 @@
+name: RTEssentials
+main: zAukz\RTEssentials\RTEssentials
+version: 1.0.0
+api: [5.0.0]
+website: https://rt-network.netlify.app
+author: zAukz
+description: Essentials plugin with a variety of helpful systems for your server!
+
+commands:
+  sethome:
+    description: Set a home location
+    usage: "/sethome [name]"
+    permission: rte.sethome
+  home:
+    description: Teleport to a home
+    usage: "/home [name]"
+    permission: rte.home
+  delhome:
+    description: Delete a home
+    usage: "/delhome [name]"
+    permission: rte.delhome
+  homes:
+    description: List your homes
+    usage: "/homes"
+    permission: rte.homes
+
+  balance:
+    description: Check your balance
+    usage: "/balance"
+    permission: rte.balance
+  pay:
+    description: Pay another player
+    usage: "/pay <player> <amount>"
+    permission: rte.pay
+
+  tpa:
+    description: Request to teleport to another player
+    usage: "/tpa <player>"
+    permission: rte.tpa
+  tpaccept:
+    description: Accept a teleport request
+    usage: "/tpaccept"
+    permission: rte.tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: "/tpdeny"
+    permission: rte.tpdeny
+
+  warp:
+    description: Teleport to a warp
+    usage: "/warp <name>"
+    permission: rte.warp
+  setwarp:
+    description: Set a warp
+    usage: "/setwarp <name>"
+    permission: rte.setwarp
+  delwarp:
+    description: Delete a warp
+    usage: "/delwarp <name>"
+    permission: rte.delwarp
+  warps:
+    description: List all warps
+    usage: "/warps"
+    permission: rte.warps
+
+  msg:
+    description: Send a private message
+    usage: "/msg <player> <message>"
+    permission: rte.msg
+  reply:
+    description: Reply to last private message
+    usage: "/reply <message>"
+    permission: rte.reply
+
+  back:
+    description: Return to your last location
+    usage: "/back"
+    permission: rte.back
+  heal:
+    description: Restore your health
+    usage: "/heal"
+    permission: rte.heal
+  feed:
+    description: Restore your hunger
+    usage: "/feed"
+    permission: rte.feed
+  afk:
+    description: Set yourself as AFK
+    usage: "/afk"
+    permission: rte.afk
+  seen:
+    description: Check when a player was last online
+    usage: "/seen <player>"
+    permission: rte.seen
+
+permissions:
+  rte.sethome:
+    default: true
+  rte.home:
+    default: true
+  rte.delhome:
+    default: true
+  rte.homes:
+    default: true
+  rte.balance:
+    default: true
+  rte.pay:
+    default: true
+  rte.tpa:
+    default: true
+  rte.tpaccept:
+    default: true
+  rte.tpdeny:
+    default: true
+  rte.warp:
+    default: true
+  rte.setwarp:
+    default: op
+  rte.delwarp:
+    default: op
+  rte.warps:
+    default: true
+  rte.msg:
+    default: true
+  rte.reply:
+    default: true
+  rte.back:
+    default: true
+  rte.heal:
+    default: op
+  rte.feed:
+    default: op
+  rte.afk:
+    default: true
+  rte.seen:
+    default: true
