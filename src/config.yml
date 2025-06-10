@@ -1,0 +1,50 @@
+homes:
+  max-per-player: 5
+  cooldown: 10 # seconds between /home uses
+
+tpa:
+  cooldown: 30 # seconds between /tpa uses
+  expire: 60   # seconds before a tpa request expires
+
+economy:
+  start-balance: 1000
+  pay-min: 1
+  pay-max: 100000
+
+warps:
+  enabled: true
+  max-per-player: 10
+
+messages:
+  home-set: "Home '{home}' set!"
+  home-teleport: "Teleported to home '{home}'."
+  home-deleted: "Home '{home}' deleted."
+  home-not-exist: "Home '{home}' does not exist."
+  home-list: "Your homes: {homes}"
+  home-max-reached: "You have reached the maximum number of homes."
+  balance: "Your balance: {balance}"
+  pay-success: "Paid {amount} to {player}."
+  pay-received: "You received {amount} from {player}."
+  pay-insufficient: "Insufficient funds."
+  pay-invalid: "Invalid player or amount."
+  tpa-request-sent: "Teleport request sent to {player}."
+  tpa-request-received: "{player} has requested to teleport to you. Use /tpaccept or /tpdeny."
+  tpa-accepted: "Teleport request accepted."
+  tpa-denied: "Teleport request denied."
+  tpa-no-request: "No pending teleport requests."
+  warp-set: "Warp '{warp}' set!"
+  warp-teleport: "Teleported to warp '{warp}'."
+  warp-deleted: "Warp '{warp}' deleted."
+  warp-not-exist: "Warp '{warp}' does not exist."
+  warp-list: "Warps: {warps}"
+  msg-sent: "[To {player}] {message}"
+  msg-received: "[From {player}] {message}"
+  reply-no-one: "No one to reply to."
+  back-teleport: "Teleported to your last location."
+  back-no-location: "No previous location found."
+  heal-success: "You have been healed."
+  feed-success: "You have been fed."
+  afk-set: "You are now AFK."
+  seen-not-implemented: "Seen command not yet implemented."
+  generic-usage: "Usage: {usage}"
+  only-ingame: "This command can only be used in-game."
